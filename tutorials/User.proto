@@ -1,0 +1,17 @@
+syntax "proto3";
+package tutorials;
+
+message LoginRequest{
+	string username = 1;
+	string password = 2;
+	string platform = 3;
+}
+message Response{
+	int32 code = 1;
+	string msg = 2;
+}
+enum Type{
+	PHONE = 0;
+	EMAIl = 1;
+}
+

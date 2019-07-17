@@ -1,0 +1,21 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/go-errors/errors",
+			"repository": "https://github.com/go-errors/errors",
+			"vcs": "git",
+			"revision": "d98b870cc4e05f1545532a80e9909be8216095b6",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/golang/protobuf",
+			"repository": "https://github.com/golang/protobuf",
+			"vcs": "git",
+			"revision": "6c65a5562fc06764971b7c5d05c76c75e84bdbf7",
+			"branch": "master",
+			"notests": true
+		}
+	]
+}
